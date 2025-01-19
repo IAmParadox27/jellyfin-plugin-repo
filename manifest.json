@@ -10,9 +10,9 @@
         "version": "10.10.3.0",
         "changelist": "Initial release",
         "targetAbi": "10.10.0.0",
-        "sourceUrl": "<todo>",
-        "checksum": "<todo>",
-        "timestamp": "<todo>"
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/10.10.3.1/10.10.3.1.zip",
+        "checksum": "6f3e7ed9f16ec69c3877ef24f9f5d49d",
+        "timestamp": "2025-01-19T13:57:45"
       }
     ]
   }
