@@ -7,12 +7,20 @@
     "category": "General",
     "versions": [
       {
-        "version": "10.10.3.0",
+        "version": "10.10.3.1",
         "changelist": "Initial release",
         "targetAbi": "10.10.0.0",
         "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-home-sections/releases/download/10.10.3.1/10.10.3.1.zip",
         "checksum": "6f3e7ed9f16ec69c3877ef24f9f5d49d",
         "timestamp": "2025-01-19T13:57:45"
+      },
+      {
+        "version": "10.10.3.0",
+        "changelist": "Initial release",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "https://github.com/IAmParadox27/jellyfin-plugin-pages/releases/download/10.10.3.0/Release.zip",
+        "checksum": "2d90d3a84f01933aa0ee650b2298d242",
+        "timestamp": "2025-01-19T18:52:45"
       }
     ]
   }
