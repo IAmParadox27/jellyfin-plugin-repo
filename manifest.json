@@ -1,0 +1,19 @@
+[
+  {
+    "guid": "b8298e01-2697-407a-b44d-aa8dc795e850",
+    "name": "Home Screen Sections",
+    "description": "Adds support for server provided home screen sections",
+    "owner": "IAmParadox27",
+    "category": "General",
+    "versions": [
+      {
+        "version": "10.10.3.0",
+        "changelist": "Initial release",
+        "targetAbi": "10.10.0.0",
+        "sourceUrl": "<todo>",
+        "checksum": "<todo>",
+        "timestamp": "<todo>"
+      }
+    ]
+  }
+]
