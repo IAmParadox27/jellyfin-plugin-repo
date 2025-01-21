@@ -3,4 +3,9 @@
 ## Accessing
 Add `https://www.iamparadox.dev/jellyfin/plugins/manifest.json` as a repository to your jellyfin instance. 
 
-_Please note that currently the webpage will calculate the releases live every time the page is hit so your catalog page will slow down while this hasn't been optimised_
+| Plugin               | GitHub URL                                                    | Summary                                                                                                                                                                                                                                                              |
+| -------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Home Screen Sections | https://github.com/IAmParadox27/jellyfin-plugin-home-sections | A plugin that adds support for server provided sections to the home screen, which other developers are able to expand further.                                                                                                                                       |
+| Plugin Pages         | https://github.com/IAmParadox27/jellyfin-plugin-pages         | A companion plugin for **Home Screen Sections** which allows for other plugins to create user pages which are delivered in the same style as the themed instance. Similar to plugin configuration pages, this is primarily used for user configurations for plugins. |
+
+
