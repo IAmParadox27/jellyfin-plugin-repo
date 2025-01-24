@@ -1,0 +1,9 @@
+[submodule "jellyfin-plugin-file-transformation"]
+	path = jellyfin-plugin-file-transformation
+	url = https://github.com/IAmParadox27/jellyfin-plugin-file-transformation
+[submodule "jellyfin-plugin-pages"]
+	path = jellyfin-plugin-pages
+	url = https://github.com/IAmParadox27/jellyfin-plugin-pages
+[submodule "jellyfin-plugin-home-sections"]
+	path = jellyfin-plugin-home-sections
+	url = https://github.com/IAmParadox27/jellyfin-plugin-home-sections
