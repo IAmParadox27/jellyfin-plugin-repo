@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.FileTransformation", "jellyfin-plugin-file-transformation\src\Jellyfin.Plugin.FileTransformation\Jellyfin.Plugin.FileTransformation.csproj", "{8E3991BC-3026-4569-80A7-E8541FFD2374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.HomeScreenSections", "jellyfin-plugin-home-sections\src\Jellyfin.Plugin.HomeScreenSections\Jellyfin.Plugin.HomeScreenSections.csproj", "{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.PluginPages", "jellyfin-plugin-pages\src\Jellyfin.Plugin.PluginPages\Jellyfin.Plugin.PluginPages.csproj", "{143B5AF1-4513-4DDA-A407-018661824937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.Referenceable", "jellyfin-plugin-referenceable\src\Jellyfin.Plugin.Referenceable\Jellyfin.Plugin.Referenceable.csproj", "{D8B8DF02-CE06-44E3-8868-0360B56A96A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

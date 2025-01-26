@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+artifacts
+Release
+*.zip
+node_modules
+dist/
+*.user
+*.nupkg
