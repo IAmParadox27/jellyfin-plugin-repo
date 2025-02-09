@@ -1,34 +1,90 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.FileTransformation", "jellyfin-plugin-file-transformation\src\Jellyfin.Plugin.FileTransformation\Jellyfin.Plugin.FileTransformation.csproj", "{8E3991BC-3026-4569-80A7-E8541FFD2374}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jellyfin.Plugin.FileTransformation", "jellyfin-plugin-file-transformation\src\Jellyfin.Plugin.FileTransformation\Jellyfin.Plugin.FileTransformation.csproj", "{8E3991BC-3026-4569-80A7-E8541FFD2374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.HomeScreenSections", "jellyfin-plugin-home-sections\src\Jellyfin.Plugin.HomeScreenSections\Jellyfin.Plugin.HomeScreenSections.csproj", "{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jellyfin.Plugin.HomeScreenSections", "jellyfin-plugin-home-sections\src\Jellyfin.Plugin.HomeScreenSections\Jellyfin.Plugin.HomeScreenSections.csproj", "{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.PluginPages", "jellyfin-plugin-pages\src\Jellyfin.Plugin.PluginPages\Jellyfin.Plugin.PluginPages.csproj", "{143B5AF1-4513-4DDA-A407-018661824937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jellyfin.Plugin.PluginPages", "jellyfin-plugin-pages\src\Jellyfin.Plugin.PluginPages\Jellyfin.Plugin.PluginPages.csproj", "{143B5AF1-4513-4DDA-A407-018661824937}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.Referenceable", "jellyfin-plugin-referenceable\src\Jellyfin.Plugin.Referenceable\Jellyfin.Plugin.Referenceable.csproj", "{D8B8DF02-CE06-44E3-8868-0360B56A96A2}"
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "jellyfin", "C:\Program Files\Jellyfin\Server\jellyfin.exe", "{A27FAC0A-DCB7-483D-BD89-5F4B91B36D08}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Program Files\Jellyfin\Server\jellyfin.exe
+		RemoteMachine = ZACH-PC
+		StartingDirectory = C:\Program Files\Jellyfin\Server
+		Arguments = -d C:\ProgramData\Jellyfin\Server
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.CollectionSections", "jellyfin-plugin-collection-sections\src\Jellyfin.Plugin.CollectionSections\Jellyfin.Plugin.CollectionSections.csproj", "{76EB912D-1B34-43E8-A724-810182C9E922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.MediaBar", "jellyfin-plugin-media-bar\src\Jellyfin.Plugin.MediaBar\Jellyfin.Plugin.MediaBar.csproj", "{78A19408-B379-464F-90B7-B89E7428DDAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Debug|x64.Build.0 = Debug|Any CPU
 		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|x64.ActiveCfg = Release|Any CPU
+		{8E3991BC-3026-4569-80A7-E8541FFD2374}.Release|x64.Build.0 = Release|Any CPU
 		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Debug|x64.Build.0 = Debug|Any CPU
 		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF79D7E0-D738-4D58-BF84-F105B7E9A3CE}.Release|x64.Build.0 = Release|Any CPU
 		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Debug|x64.Build.0 = Debug|Any CPU
 		{143B5AF1-4513-4DDA-A407-018661824937}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143B5AF1-4513-4DDA-A407-018661824937}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8B8DF02-CE06-44E3-8868-0360B56A96A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Release|x64.ActiveCfg = Release|Any CPU
+		{143B5AF1-4513-4DDA-A407-018661824937}.Release|x64.Build.0 = Release|Any CPU
+		{A27FAC0A-DCB7-483D-BD89-5F4B91B36D08}.Debug|Any CPU.ActiveCfg = Release|x64
+		{A27FAC0A-DCB7-483D-BD89-5F4B91B36D08}.Debug|x64.ActiveCfg = Release|x64
+		{A27FAC0A-DCB7-483D-BD89-5F4B91B36D08}.Release|Any CPU.ActiveCfg = Release|x64
+		{A27FAC0A-DCB7-483D-BD89-5F4B91B36D08}.Release|x64.ActiveCfg = Release|x64
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Debug|x64.Build.0 = Debug|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Release|x64.ActiveCfg = Release|Any CPU
+		{76EB912D-1B34-43E8-A724-810182C9E922}.Release|x64.Build.0 = Release|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Debug|x64.Build.0 = Debug|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|x64.ActiveCfg = Release|Any CPU
+		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEEFD51D-8268-48F6-A3EE-F8BFF4174BEE}
 	EndGlobalSection
 EndGlobal

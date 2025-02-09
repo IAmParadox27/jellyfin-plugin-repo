@@ -7,6 +7,9 @@
 [submodule "jellyfin-plugin-home-sections"]
 	path = jellyfin-plugin-home-sections
 	url = https://github.com/IAmParadox27/jellyfin-plugin-home-sections
-[submodule "jellyfin-plugin-referenceable"]
-	path = jellyfin-plugin-referenceable
-	url = https://github.com/IAmParadox27/jellyfin-plugin-referenceable.git
+[submodule "jellyfin-plugin-media-bar"]
+	path = jellyfin-plugin-media-bar
+	url = https://github.com/IAmParadox27/jellyfin-plugin-media-bar
+[submodule "jellyfin-plugin-media-bar"]
+	path = jellyfin-plugin-collection-sections
+	url = https://github.com/IAmParadox27/jellyfin-plugin-collection-sections
