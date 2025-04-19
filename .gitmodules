@@ -13,3 +13,6 @@
 [submodule "jellyfin-plugin-media-bar"]
 	path = jellyfin-plugin-collection-sections
 	url = https://github.com/IAmParadox27/jellyfin-plugin-collection-sections
+[submodule "jellyfin-plugin-custom-tabs"]
+	path = jellyfin-plugin-custom-tabs
+	url = https://github.com/IAmParadox27/jellyfin-plugin-custom-tabs
