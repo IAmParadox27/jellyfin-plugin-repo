@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.CollectionS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.MediaBar", "jellyfin-plugin-media-bar\src\Jellyfin.Plugin.MediaBar\Jellyfin.Plugin.MediaBar.csproj", "{78A19408-B379-464F-90B7-B89E7428DDAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jellyfin.Plugin.CustomTabs", "jellyfin-plugin-custom-tabs\src\Jellyfin.Plugin.CustomTabs\Jellyfin.Plugin.CustomTabs.csproj", "{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,14 @@ Global
 		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|x64.ActiveCfg = Release|Any CPU
 		{78A19408-B379-464F-90B7-B89E7428DDAC}.Release|x64.Build.0 = Release|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Debug|x64.Build.0 = Debug|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Release|x64.ActiveCfg = Release|Any CPU
+		{7DB336E8-9468-4F76-BEA9-7AC9A38E5A2A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
